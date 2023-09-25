@@ -1,0 +1,66 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    padding: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*Set the fill-opacity to 0.60, stroke colour to #333, and stroke-width to 0.3. */
+path {
+    fill-opacity: 0.60;
+    stroke: #333;
+    stroke-width: 0.3;
+}
+
+/* Set the fill colour for the path */
+path.winter-storm-freeze {
+    fill: #ccc;
+}
+
+path.drought-wildfire {
+    fill: #ffffd9;
+}
+
+path.flooding {
+    fill: #41b6c4;
+}
+
+path.tropical-cyclone {
+    fill: #081d58;
+}
+
+path.severe-storm {
+    fill: #c7e9b4;
+}
+
+/* Set the tick colour to light gray. */
+.tick {
+    stroke: lightgrey;
+    stroke-width: 0.3
+}
+
+/* Set the text colour to light gray. */
+text {
+    fill: grey;
+    font-size: 10px;
+}
+
+text.text-label {
+    font-size: 8px;
+}
+
+/* Tooltip */
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+    border: 1px solid #ddd;
+    font-size: 11px;
+    padding: 8px;
+    color: #333;
+}
